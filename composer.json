@@ -1,0 +1,39 @@
+{
+    "name": "globalis/wp-cubi-transient-cache",
+    "description": "",
+    "type": "library",
+    "license": "GPL-2.0",
+    "homepage": "https://github.com/globalis-ms/wp-cubi-transient-cache",
+    "authors": [
+        {
+            "name": "Pierre Dargham",
+            "homepage": "https://github.com/pierre-dargham/"
+        },
+        {
+            "name": "GLOBALIS media systems",
+            "homepage": "https://www.globalis-ms.com/"
+        }
+    ],
+    "keywords": [],
+    "support": {
+        "issues": "https://github.com/globalis-ms/wp-cubi-transient-cache/issues"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require": {
+        "globalis/wp-cubi-helpers": "^1.0.5"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7.1"
+    },
+    "autoload": {
+        "files": [
+            "autoload.php",
+            "helpers.php"
+        ],
+        "psr-4": {
+            "Globalis\\WP\\Cubi\\TransientCache\\": "src"
+        }
+    }
+}
