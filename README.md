@@ -1,8 +1,8 @@
 # [wp-cubi-transient-cache](https://github.com/globalis-ms/wp-cubi-transient-cache)
 
-[![Build Status](https://travis-ci.com/globalis-ms/wp-cubi-transient-cache.svg?branch=master)](https://travis-ci.com/globalis-ms/wp-cubi-transient-cache)
-[![Latest Stable Version](https://poser.pugx.org/globalis/wp-cubi-transient-cache/v/stable)](https://packagist.org/packages/globalis/wp-cubi-transient-cache)
-[![License](https://poser.pugx.org/globalis/wp-cubi-transient-cache/license)](https://github.com/globalis-ms/wp-cubi-transient-cache/blob/master/LICENSE.md)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/globalis/wp-cubi-transient-cache/php?color=%233fb911)](https://github.com/globalis-ms/wp-cubi-transient-cache/blob/master/composer.json)
+[![Latest Stable Version](https://poser.pugx.org/globalis/wp-cubi-transient-cache/v/stable)](https://packagist.org/packages/globalis/wp-cubi)
+[![License](https://poser.pugx.org/globalis/wp-cubi/license)](https://github.com/globalis-ms/wp-cubi/blob/master/LICENSE.md)
 
 wp-cubi transient cache
 
