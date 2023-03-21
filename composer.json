@@ -19,9 +19,7 @@
         "issues": "https://github.com/globalis-ms/wp-cubi-transient-cache/issues"
     },
     "require": {
-        "php": ">=8.0"
-    },
-    "require": {
+        "php": ">=8.0",
         "globalis/wp-cubi-helpers": "^1.0.5"
     },
     "require-dev": {
