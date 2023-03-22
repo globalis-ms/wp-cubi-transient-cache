@@ -6,6 +6,9 @@ class NavMenu
 {
     public static function hooks()
     {
+        if (defined('WP_CUBI_DISABLE_CACHE_NAV_MENUS') && WP_CUBI_DISABLE_CACHE_NAV_MENUS) {
+            return;
+        }
         add_filter('pre_wp_nav_menu', [__CLASS__, 'get'], 10, 2);
     }
 

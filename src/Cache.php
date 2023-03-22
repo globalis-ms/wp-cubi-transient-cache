@@ -13,7 +13,7 @@ class Cache
         add_action('init', [__CLASS__, 'detectSiteUrlChanged'], 20);
     }
 
-    public static function get($cacheKey, $group)
+    public static function get(string $cacheKey, string $group)
     {
         $transient = 'wp_cubi_cache_' . $group . '_' . $cacheKey;
 
@@ -26,7 +26,7 @@ class Cache
         return empty($cached) ? null : $cached;
     }
 
-    public static function set($cacheKey, $group, $value)
+    public static function set(string $cacheKey, string $group, mixed $value)
     {
         $transient = 'wp_cubi_cache_' . $group . '_' . $cacheKey;
 
@@ -80,7 +80,7 @@ class Cache
         }
     }
 
-    public static function clear($groups = ['all'])
+    public static function clear(array $groups = ['all'])
     {
         if (!is_array($groups)) {
             $groups = [$groups];
