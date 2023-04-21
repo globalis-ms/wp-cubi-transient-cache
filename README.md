@@ -80,7 +80,7 @@ Template::get('templates/my-part', ['my_arg' => 'example'], 'my_group');
 
 When template part cache doesn't exists, `Template::get()` will automatically loads required template part, and cache it.
 
-Clearing template part uses generic clear method, using file path as key (e.g. `Cache::clear('templates/my-part', 'my_group');`).
+Templates cache uses generic clear methods, using file path as key (e.g. `Cache::clear('templates/my-part', 'my_group');`).
 
 ### Nav-menus caching
 
