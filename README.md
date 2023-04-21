@@ -78,7 +78,7 @@ use Globalis\WP\Cubi\TransientCache\Template;
 Template::get('templates/my-part', ['my_arg' => 'example'], 'my_group');
 ```
 
-When template part cache doesn't exists, `Template::get()` will automatically loads required template part, and cache it.
+When a template part cache value doesn't exists, `Template::get()` will automatically loads required template part, and cache it, so you just have to replace calls to WordPress core function `get_template_part()` with `Template::get()` to enable cache on a template part.
 
 Templates cache uses generic clear methods, using file path as key (e.g. `Cache::clear('templates/my-part', 'my_group');`).
 
