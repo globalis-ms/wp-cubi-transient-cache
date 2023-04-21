@@ -75,7 +75,7 @@ Get a template part from cache :
 
 use Globalis\WP\Cubi\TransientCache\Template;
 
-$html = Template::get('templates/my-part', 'my_group');
+Template::get('templates/my-part', ['my_arg' => 'example'], 'my_group');
 ```
 
 When template part cache doesn't exists, `Template::get()` will automatically loads required template part, and cache it.
