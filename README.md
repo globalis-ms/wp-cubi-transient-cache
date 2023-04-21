@@ -84,7 +84,7 @@ Templates cache uses generic clear methods, using file path as key (e.g. `Cache:
 
 ### Nav-menus caching
 
-Nav-menus are automatically cached, but multiple default hooks are setup out of the box to clear this cache when needed.
+Nav-menus are automatically cached and several hooks are setup out of the box to clear their cache when needed.
 
 You can always manually clear all menus cache with :
 
